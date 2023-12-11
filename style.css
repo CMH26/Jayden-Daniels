@@ -1,0 +1,88 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+.page {
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.monkey {
+  color:black;
+  width: 325px;
+  border: 15px solid purple;
+  padding: 30px;
+  margin: 10px;
+  content: solid yellow;
+  position: fixed;
+  bottom:25px;
+  left:30px;
+}
+.apple {
+  width: 350px;
+  height: 400px;
+  position: fixed;
+  left: 70px;
+  border:5px solid grey;
+}
+.grid-container {
+  display: inline-grid;
+  align-content: flex-start;
+}
+.tree{
+  color:black;
+  height: 50px;
+  width: 400px;
+  border:15px solid yellow;
+  padding: 40px;
+  margin: 10px;
+  content: solid purple;
+  position: fixed;
+  right: 375px;
+  bottom: 225px;
+}
+.hi{
+  width:500px;
+  height: 200px;
+  position:fixed;
+  right:390px;
+  bottom: 425px;
+  border:5px solid grey;
+}
+.bye{
+  color:black;
+  height: 180px;
+  width:180px;
+  border: 5px solid purple;
+  padding:5px;
+  margin:10px;
+  content: purple;
+  position:fixed;
+  left:500px;
+  bottom:5px;
+}
+.hello{
+  width:125px;
+  height:200px;
+  position:fixed;
+  left:775px;
+  bottom:10px;
+  border:5px solid grey;
+}
+.pc{
+  width:250px;
+  height:350px;
+  position:fixed;
+  right:65px;
+  bottom:250px;
+  border:5px solid grey;
+}
+.no{
+  width:250px;
+  height: 200px;
+  position:fixed;
+  right:65px;
+  bottom: 30px;
+  border: 5px solid grey;
+}
